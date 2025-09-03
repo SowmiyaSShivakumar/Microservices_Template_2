@@ -1,0 +1,8 @@
+routers:
+  my-router:
+    uri: /users/*
+    serviceId: user-service
+    plugins:
+      - proxy-rewrite:
+          regex_uri: "/users/(.*)"
+          uri: "/$1"
