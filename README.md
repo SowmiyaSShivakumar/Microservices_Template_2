@@ -8,6 +8,6 @@ This template contains a microservices architecture with an API Gateway, Service
 
 ## Setup
 1. Clone this repository.
-2. Navigate to the directory and build the services.
+2. Navigate to the directory and build the services using Maven.
 3. Run `docker-compose up` to start all services.
 4. Access the API Gateway at `http://localhost:8080/users`.
