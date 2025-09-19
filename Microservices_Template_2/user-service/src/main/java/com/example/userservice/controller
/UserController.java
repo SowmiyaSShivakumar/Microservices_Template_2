@@ -1,1 +1,1 @@
-"List of users names"
+List of users names
